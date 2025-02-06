@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> M Construction </title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <!-- Font -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- animate css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!-- wow js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <!-- slick css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+ <!-- Swiper CSS-->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <!-- css -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- header -->
+  <header class="container-fluid bg-light p-0 fixed-top">
+    <div class="container">
+      <div class="row gx-0 d-none d-lg-flex py-3">
+        <div class="col-lg-3 col-sm-12 menu1">
+          <a><i class="fab fa-facebook me-4"></i></a>
+          <a><i class="fab fa-twitter me-4"></i></a>          
+          <a><i class="fab fa-linkedin me-4"></i></a>
+          <a><i class="fab fa-google-plus-g"></i></a>
+        </div>
+        <div class="col col-lg-9 col-sm-12 menu2 pe-0 text-end">
+          <a><i class="fa-regular fa-clock pe-2"></i></a><span class="pe-4">Mon-Sat: 7:00 Am - 5:00 Pm</span>
+          <a><i class="fas fa-phone pe-2"></i></a><span class="pe-4">+91 8739193926</span>
+          <a><i class="fa-solid fa-envelope pe-2"></i></a><span>info@mconstruction.com</span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Navbar -->
+  <section class="container-fluid bg-light pt-5 fixed-top">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-light navbar-light man" id="navbar">
+        <a class="navbar-brand mx-1" href="#"><i class="fa fa-building"></i><span> M</span>  CONSTUCTION</a>
+        <button class="navbar-toggler menu-btn" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu"
+          aria-controls="#toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="toggleMobileMenu">
+          <ul class="navbar-nav ms-auto py-3 py-lg-0 me-lg-0 menu" id="menu">
+            <li class="nav-item me-4">
+              <a class="nav-link nav-menu home" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link nav-menu" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link nav-menu" href="service.html">Services</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link nav-menu" href="project.html">Projects</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link nav-menu" href="feature.html">Features</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link nav-menu" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+  <!-- Carousel -->
+  <section class="container-fluid p-0 mb-5 animate__animated animate__fadeIn">
+    <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="w-100" src="images/civil.jpg" alt="Image">
+          <div class="carousel-caption">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-10 col-lg-10 content">
+                  <h5 class="text-uppercase mb-3 wow animate__animated animate__fadeInDown" data-wow-duration="2s" data-wow-delay="0.4s">
+                    Construction Business
+                  </h5>
+                  <!-- display-2 => 4.5rem -->
+                  <h1 class="display-2 text-light mb-3 wow animate__animated animate__slideInRight" data-wow-duration="2s" data-wow-delay="0.2s">
+                    We build something new and consistent
+                  </h1>
+                  <ol class="breadcrumb mb-4 pb-2 wow animate__animated animate__slideInLeft"  data-wow-duration="2s" data-wow-delay="0.2s">
+                    <!-- fs - font-size e.g (h1-h6) fs-5=h5-->
+                    <li class="breadcrumb-item fs-5 text-light">
+                      Commercial
+                    </li>
+                    <li class="breadcrumb-item fs-5 text-light">
+                      Residential
+                    </li>
+                    <li class="breadcrumb-item fs-5 text-light">
+                      Industrial
+                    </li>
+                  </ol>
+                  <a href="" class="btn py-3 px-5 more wow animate__animated animate__zoomInDown"><span>Discover More</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="w-100" src="images/bg3.jpg" alt="Image">
+          <div class="carousel-caption">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-10 col-lg-10 content">
+                  <h5 class="text-uppercase mb-3 wow animate__animated animate__fadeInDown" data-wow-duration="2s" data-wow-delay="0.4s">
+                    Construction Business
+                  </h5>
+                  <h1 class="display-2 mb-3 wow animate__animated animate__slideInRight" data-wow-duration="2s" data-wow-delay="0.2s">
+                    We building your dream house
+                  </h1>
+                  <ol class="breadcrumb mb-4 pb-2 wow animate__animated animate__slideInLeft"  data-wow-duration="2s" data-wow-delay="0.2s">
+                    <li class="breadcrumb-item fs-5 text-light">
+                      Commercial
+                    </li>
+                    <li class="breadcrumb-item fs-5 text-light">
+                      Residential
+                    </li>
+                    <li class="breadcrumb-item fs-5 text-light">
+                      Industrial
+                    </li>
+                  </ol>
+                  <a href="" class="btn py-3 px-5 more"><span>Discover More</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="w-100" src="images/3.jpg" alt="Image">
+          <div class="carousel-caption">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-10 col-lg-10 content">
+                  <h5 class="text-uppercase mb-3 wow animate__animated animate__fadeInDown" data-wow-duration="2s" data-wow-delay="0.4s">
+                    Construction Business
+                  </h5>
+                  <h1 class="display-2 mb-3  wow animate__animated animate__slideInRight" data-wow-duration="2s" data-wow-delay="0.2s">
+                    We building for better futures
+                  </h1>
+                  <ol class="breadcrumb mb-4 pb-2 wow animate__animated animate__slideInLeft"  data-wow-duration="2s" data-wow-delay="0.2s">
+                    <li class="breadcrumb-item fs-5 text-light"> Commercial</li>
+                    <li class="breadcrumb-item fs-5 text-light"> Residential</li>
+                    <li class="breadcrumb-item fs-5 text-light"> Industrial</li>                                                          
+                  </ol>
+                  <a href="" class="btn py-3 px-5 more"><span>Discover More</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- About  -->
+  <section id="container-fluid about" class="about">
+    <div class="container my-5">
+      <div class="row d-flex about-content">
+        <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12 wow animate__animated animate__fadeInUp left" data-wow-delay="0.1s">
+          <div class="image-wrapper h-100">
+            <img src="images/about.jpg" alt="About" width="100%">
+          </div>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 wow animate__animated animate__fadeInUp right" data-wow-delay="0.3s">
+          <div class="sec-title h-100">
+            <h4 class="heading text-md-start" style="color: #777;">About Us</h4>
+            <h2 class="title">
+              Construction solutions focused future ready
+            </h2>
+            <p class="desc pb-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quae omnis eveniet, veniam recusandae ipsum commodi sunt labore Neque.
+            </p>
+
+            <div class="d-sm-flex row about-details">
+
+                <div class="about-img col-lg-4 col-md-4 col-sm-4">
+                  <img src="images/abzt.jpg" alt="About">
+                </div> 
+
+              <div class="col-lg-8 col-md-8 col-sm-8 about-points">
+                <ul class="check-lists">
+                  <li class="list-item mt-2 mb-3">
+                    <span class="icon-list-icon"><i class="fa fa-check-circle"></i></span>                                         
+                    <span class="list-text ms-1"> Pre-construction services</span>
+                  </li>
+                  <li class="list-item mb-3">
+                    <span class="icon-list-icon"><i class="fa fa-check-circle"></i></span> 
+                    <span class="list-text ms-1"> Industrial manufacturing</span>
+                  </li>
+                  <li class="list-item">
+                    <span class="icon-list-icon"><i class="fa fa-check-circle"></i></span> 
+                    <span class="list-text ms-1"> Building and construction</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row mt-1">
+              <div class="col-xl-4 col-lg-5 col-md-4 col-sm-5 button">
+                <div class="btn">
+                  <a class="reading more know" href="about.html"><span>Know more</span></a>
+                </div>
+              </div>
+              <div class="col-lg-8 col-md-8 ps-5">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- services -->
+  <section id="services" class="services md-pt-3 md-pb-3">
+    <div class="container">
+    <div class="title text-center mb-2 md-mb-4 wow animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+      <h4 class="heading" style="color: #777;">Services</h4>                      
+      <h1 class="service-title">Develop comprehensive<br>solutions for each project </h1>                 
+    </div>
+    <div class="row">
+      <div class="col-lg-4 g-4 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+          <div class="services-item">
+            <div class="services-wrap">
+              <div class="services-image">
+                <img src="images/servic-1.jpg" alt="Services">
+              </div>
+              <div class="services-content">
+                <div class="service-inner">
+                  <div class="icon-top">
+                    <img src="images/service-icon1.png" alt="Services">
+                  </div>
+                  <div class="title-inner">
+                    <h3 class="title"><a href="">General construction</a></h3>
+                  </div>
+                  <p class="services-txt">Quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh luctus.</p>
+                  <div class="services-btn">
+                    <a class="btn-text" href="">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="services-info">
+                <div class="services-title">
+                  <h3 class="title"><a href="">General construction</a></h3>
+                </div>
+                <div class="icon-image">
+                  <img src="images/service-icon1.png" alt="Services">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 g-4 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.4s">
+          <div class="services-item">
+            <div class="services-wrap">
+              <div class="services-image">
+                <img src="images/servic-2.jpg" alt="Services">
+              </div>
+              <div class="services-content">
+                <div class="service-inner">
+                  <div class="icon-top">
+                    <img src="images/service-icon2.png" alt="Services">
+                  </div>
+                  <div class="title-inner">
+                    <h3 class="title"><a href="">Property maintenance</a></h3>
+                  </div>
+                  <p class="services-txt">Quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh luctus.</p>
+                  <div class="services-btn">
+                    <a class="btn-text" href="">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="services-info">
+                <div class="services-title">
+                  <h3 class="title"><a href="">Property maintenance</a></h3>
+                </div>
+                <div class="icon-image">
+                  <img src="images/service-icon2.png" alt="Services">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 g-4 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.6s">
+          <div class="services-item">
+            <div class="services-wrap">
+              <div class="services-image">
+                <img src="images/servic-3.jpg" alt="Services">
+              </div>
+              <div class="services-content">
+                <div class="service-inner">
+                  <div class="icon-top">
+                    <img src="images/service-icon3.png" alt="Services">
+                  </div>
+                  <div class="title-inner">
+                    <h3 class="title"><a href="">Project managment</a></h3>
+                  </div>
+                  <p class="services-txt">Quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh luctus.</p>
+                  <div class="services-btn">
+                    <a class="btn-text" href="">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="services-info">
+                <div class="services-title">
+                  <h3 class="title"><a href="">Project managment</a></h3>
+                </div>
+                <div class="icon-image">
+                  <img src="images/service-icon3.png" alt="Services">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 g-4 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.8s">
+          <div class="services-item">
+            <div class="services-wrap">
+              <div class="services-image">
+                <img src="images/servic-4.jpg" alt="Services">
+              </div>
+              <div class="services-content">
+                <div class="service-inner">
+                  <div class="icon-top">
+                    <img src="images/service-icon4.png" alt="Services">
+                  </div>
+                  <div class="title-inner">
+                    <h3 class="title"><a href="">Virtual design & build</a></h3>
+                  </div>
+                  <p class="services-txt">Quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh luctus.</p>
+                  <div class="services-btn">
+                    <a class="btn-text" href="">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="services-info">
+                <div class="services-title">
+                  <h3 class="title"><a href="">Virtual design & build</a></h3>
+                </div>
+                <div class="icon-image">
+                  <img src="images/service-icon4.png" alt="Services">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 g-4 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="1s">
+          <div class="services-item">
+            <div class="services-wrap">
+              <div class="services-image">
+                <img src="images/servic-5.jpg" alt="Services">
+              </div>
+              <div class="services-content">
+                <div class="service-inner">
+                  <div class="icon-top">
+                    <img src="images/service-icon5.png" alt="Services">
+                  </div>
+                  <div class="title-inner">
+                    <h3 class="title"><a href="">Preconstruction</a></h3>
+                  </div>
+                  <p class="services-txt">Quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh luctus.</p>
+                  <div class="services-btn">
+                    <a class="btn-text" href="">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="services-info">
+                <div class="services-title">
+                  <h3 class="title"><a href="">Preconstruction</a></h3>
+                </div>
+                <div class="icon-image">
+                  <img src="images/service-icon5.png" alt="Services">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 g-4 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="1.2s">
+          <div class="services-item">
+            <div class="services-wrap">
+              <div class="services-image">
+                <img src="images/servic-6.jpg" alt="Services">
+              </div>
+              <div class="services-content">
+                <div class="service-inner">
+                  <div class="icon-top">
+                    <img src="images/service-icon6.png" alt="Services">
+                  </div>
+                  <div class="title-inner">
+                    <h3 class="title"><a href="">Design build</a></h3>
+                  </div>
+                  <p class="services-txt">Quisque placerat vitae lacus ut scelerisque. Fusce luctus odio ac nibh luctus.</p>
+                  <div class="services-btn">
+                    <a class="btn-text" href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="services-info">
+                <div class="services-title">
+                  <h3 class="title"><a href="">Design build</a></h3>
+                </div>
+                <div class="icon-image">
+                  <img src="images/service-icon6.png" alt="Services">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Facts section -->
+  <section id="facts" class="facts-section">
+    <div class="container">
+      <div class="facts-wrapper">
+          <div class="row">
+            <div class="col-md-3 col-sm-6 facts">
+                <div class="facts-img">
+                  <img loading="lazy" src="icon-image/fact1.png" alt="facts-img">
+                </div>
+                <div class="facts-content">
+                  <h2 class="facts-count"><span class="counter" data-count="1789">0</span></h2>
+                  <h3 class="facts-title">Total Projects</h3>
+                </div>
+            </div><!-- Col end -->
+  
+            <div class="col-md-3 col-sm-6 facts mt-5 mt-sm-0">
+                <div class="facts-img">
+                  <img loading="lazy" src="icon-image/fact2.png" alt="facts-img">
+                </div>
+                <div class="facts-content">
+                  <h2 class="facts-count"><span class="counter" data-count="647">0</span></h2>
+                  <h3 class="facts-title">Staff Members</h3>
+                </div>
+            </div><!-- Col end -->
+  
+            <div class="col-md-3 col-sm-6 facts mt-5 mt-md-0">
+                <div class="facts-img">
+                  <img loading="lazy" src="icon-image/fact3.png" alt="facts-img">
+                </div>
+                <div class="facts-content">
+                  <h2 class="facts-count"><span class="counter" data-count="4000">0</span></h2>
+                  <h3 class="facts-title">Hours of Work</h3>
+                </div>
+            </div><!-- Col end -->
+  
+            <div class="col-md-3 col-sm-6 facts mt-5 mt-md-0">
+                <div class="facts-img">
+                  <img loading="lazy" src="icon-image/fact4.png" alt="facts-img">
+                </div>
+                <div class="facts-content">
+                  <h2 class="facts-count"><span class="counter" data-count="44">0</span></h2>
+                  <h3 class="facts-title">Countries Experience</h3>
+                </div>
+            </div><!-- Col end -->
+  
+          </div> <!-- Facts end -->
+      </div>
+      <!--/ Content row end -->
+    </div>
+    <!--/ Container end -->
+  </section><!-- Facts end -->
+
+
+
+  <!-- Projects -->
+  <section class="container-fluid project"> 
+    <div class="container wow animate__animated animate__fadeInUp" data-wow-delay="0.5s">
+        <h4 class="heading pt-4" style="color: #777;">Our Project</h4>
+        <h2 class="mb-3">Our latest completed and running projects</h2>
+        <div class="swiper_section">
+          <div class="swiper mySwiper container">
+            <div class="swiper-wrapper content">
+
+              <div class="swiper-slide card col-lg-4 col-md-6 col-sm-12">
+                <div class="img-wrapper">
+                  <img class="inner-img" src="images/project4.jpg">
+              </div>               
+               <div class="caption">
+                <h5 class="title">Narriot Headquaters</h5>
+                  <span class="category">Infrastructure</span>
+                </div>
+              </div>
+
+              <div class="swiper-slide card col-lg-4 col-md-6 col-sm-12">
+                <div class="img-wrapper">
+                  <img class="inner-img" src="images/project5.jpg">
+              </div>               
+                <div class="caption">
+                  <h5 class="title">kalas metro rail</h5>
+                  <span class="category">Infrastructure</span>
+                </div>
+              </div>
+
+              <div class="swiper-slide card col-lg-4 col-md-6 col-sm-12">
+                <div class="img-wrapper">
+                  <img class="inner-img" src="images/project6.jpg">
+              </div>
+                <div class="caption">
+                  <h5 class="title">Square avenue house</h5>
+                  <span class="category">Residential</span>
+                </div>
+              </div>
+              <div class="swiper-slide card col-lg-4 col-md-6 col-sm-12">
+                <div class="img-wrapper">
+                  <img class="inner-img" src="images/project1.jpg">
+              </div>           
+                <div class="caption">
+                  <h5 class="title">Capital Teltway building</h5>
+                  <span class="category">Commercial, Interiors</span>
+                </div>
+              </div>
+
+              <div class="swiper-slide card col-lg-4 col-md-6 col-sm-12">
+                <div class="img-wrapper">
+                  <img class="inner-img" src="images/project2.jpg">
+              </div>                
+                <div class="caption">
+                  <h5 class="title">Ghum Touch Hospital</h5>
+                  <span class="category">Health Care</span>
+                </div>
+              </div>
+
+              <div class="swiper-slide card col-lg-4 col-md-6 col-sm-12">
+                <div class="img-wrapper">
+                  <img class="inner-img" src="images/project3.jpg">
+              </div>              
+                <div class="caption">
+                  <h5 class="title">TNT East Fasility</h5>
+                  <span class="category">Government</span>
+                </div>
+              </div>
+             
+              <div class="swiper-slide card card col-lg-4 col-md-6 col-sm-12">
+                <div class="img-wrapper">
+                  <img class="inner-img" src="images/architecture.jpg">
+              </div>                
+                <div class="caption">
+                  <h5 class="title">Stone Harbor</h5>
+                  <span class="category">House & Exterior</span>
+                </div>
+              </div>
+
+              <div class="swiper-slide card card col-lg-4 col-md-6 col-sm-12">
+                <div class="img-wrapper">
+                  <img class="inner-img" src="images/home.jpg">
+              </div>                
+                <div class="caption">
+                  <h5 class="title">Stone Harbor</h5>
+                  <span class="category">House & Exterior</span>
+                </div>
+              </div>
+
+              <div class="swiper-slide card card col-lg-4 col-md-6 col-sm-12">
+                <div class="img-wrapper">
+                  <img class="inner-img" src="images/bedroom-5664221_1280.jpg">
+              </div>                
+                <div class="caption">
+                  <h5 class="title">Stone Harbor</h5>
+                  <span class="category">House & Exterior</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+    </div>
+  </section>
+
+ <!-- Testimonial Section -->
+ <div id="testimonial" class="testimonial py-5">
+  <div class="container">
+    <div class="row content">
+      <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 left">
+        <div class="sec-title mb-4">
+          <h5 class="sub-text">
+            Testimonials
+          </h5>
+          <h2 class="title">
+            Our customers reviews
+          </h2>
+        </div>
+        <div class="slider-box">
+          <div class="slider testi-slide">
+            <div class="slide-item">
+               <div class="slide-content">
+                   <span><img src="images/quote.png" alt="Testimonial"></span>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex consequatur dolor dolores totam voluptatibus unde quam est, aspernatur doloremque molestias praesentium impedit maiores, nesciunt excepturi a ratione atque modi harum.</p>
+               </div>
+               <div class="person-info">
+                   <div class="slide-image">
+                     <img src="images/download.jpg" alt="Testimonial" style="object-fit: auto;">
+                   </div>
+                   <div class="about-person">
+                     <div class="person-name">Tom Cruise</div>
+                     <span class="designation">CEO, Brick Consulting</span>
+                   </div>
+               </div>
+            </div>
+            <div class="slide-item">
+               <div class="slide-content">
+                   <span><img src="images/quote.png" alt="Testimonial"></span>
+                   <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway.</p>
+               </div>
+               <div class="person-info">
+                   <div class="slide-image">
+                     <img src="images/Emma_watson.jpg" alt="Testimonial">
+                   </div>
+                   <div class="about-person">
+                     <div class="person-name">Emma Watson</div>
+                     <span class="designation">CEO, Square Consulting</span>
+                   </div>
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <!-- Team Section -->
+
+      <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 right">
+        <div class="team" id="team">
+          <div class="sec-title mb-4">
+            <h5 class="sub-text">
+              Team Members
+            </h5>
+            <h2 class="title">
+              Expert team members
+            </h2>
+          </div>
+             <div class="slider_box">
+                <div class="slick-content">
+                    <div class="slider slider-for">
+                        <div class="team-inner-wrap">
+                            <div class="slide-image">
+                                  <a href="#"><img src="images/ceo.jpeg" alt="Team"></a>
+                            </div>
+                            <div class="team-content">
+                                <h3 class="title"><a href="#" class="text-decoration-none">Steve Smith</a></h3>
+                                <span class="team-title">CEO, M Construction</span>
+                            </div>
+                        </div>
+                        <div class="team-inner-wrap">
+                            <div class="slide-image">
+                                  <a href="#"><img src="images/tm2.jpg" alt="Team"></a>
+                            </div>
+                            <div class="team-content">
+                                <h3 class="title"><a href="#" class="text-decoration-none">Chris Morris</a></h3>
+                                <span class="team-title">Project Manager</span>
+                            </div>
+                        </div>
+                        <div class="team-inner-wrap">
+                            <div class="slide-image">
+                                  <a href="#"><img src="images/tm3.jpg" alt="Team"></a>
+                            </div>
+                            <div class="team-content">
+                                <h3 class="title"><a href="#" class="text-decoration-none">Alex Hales</a></h3>
+                                <span class="team-title">Site Engineer</span>
+                            </div>
+                        </div>
+                        <div class="team-inner-wrap">
+                            <div class="slide-image">
+                                  <a href="#"><img src="images/tm6.jpg" alt="Team"></a>
+                            </div>
+                            <div class="team-content">
+                                <h3 class="title"><a href="#" class="text-decoration-none">Jason Roy</a></h3>
+                                <span class="team-title">Builder Advisor</span>
+                            </div>
+                        </div>
+                        <div class="team-inner-wrap">
+                            <div class="slide-image">
+                                  <a href="#"><img src="images/tm5.jpg" alt="Team"></a>
+                            </div>
+                            <div class="team-content">
+                                <h3 class="title"><a href="#" class="text-decoration-none">Jos Butter</a></h3>
+                                <span class="team-title">Architecture</span>
+                            </div>
+                        </div>
+                        <div class="team-inner-wrap">
+                            <div class="slide-image">
+                                  <a href="#"><img src="images/tm4.jpg" alt="Team"></a>
+                            </div>
+                            <div class="team-content">
+                                <h3 class="title"><a href="#" class="text-decoration-none">Joe Root</a></h3>
+                                <span class="team-title">Construction Worker</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider slider-nav">
+                        <div class="images-list">
+                            <a href="#"><img src="images/ceo.jpeg" alt="Team"></a>
+                        </div>
+                        <div class="images-list">
+                            <a href="#"><img src="images/tm2.jpg" alt="Team"></a>
+                        </div>
+                        <div class="images-list">
+                            <a href="#"><img src="images/tm3.jpg" alt="Team"></a>
+                        </div>
+                        <div class="images-list">
+                            <a href="#"><img src="images/tm6.jpg" alt="Team"></a>
+                        </div>
+                        <div class="images-list">
+                            <a href="#"><img src="images/tm5.jpg" alt="Team"></a>
+                        </div>
+                        <div class="images-list">
+                            <a href="#"><img src="images/tm4.jpg" alt="Team"></a>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+        <!-- Team Section End -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Contact section -->
+<section class="container-fluid contact mt-5 py-5">
+  <div class="container py-5">
+    <div class="row g-5 justify-content-lg-center">
+      <div class="col-lg-7 col-md-12 col-sm-12 wow animate__animated animate__slideInDown" data-wow-duration="2s" data-wow-delay="0.2s">
+          <h5 class="text-white text-uppercase mb-2">Contact Us</h5>
+          <h2 class="display-6 text-white mb-0">
+            Have an upcoming project?
+          </h2>
+      </div>
+      <div class="col-lg-7 col-md-12 col-sm-12 wow animate__animated animate__slideInRight" data-wow-duration="2s" data-wow-delay="0.2s">
+        <form>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <div class="form-floating">
+                <input type="text" class="form-control border-0" id="gname" placeholder="Gurdian Name">
+                <label for="gname">Name</label>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-floating">
+                <input type="email" class="form-control border-0" id="gmail" placeholder="Gurdian Email">
+                <label for="gmail">Email</label>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-floating">
+                <input type="text" class="form-control border-0" id="cname" placeholder="Child Name">
+                <label for="cname">phone</label>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-floating">
+                <input type="text" class="form-control border-0" id="cage" placeholder="Child Age">
+                <label for="cage">Your Website</label>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="form-floating">
+                <textarea class="form-control border-0" placeholder="Leave a message here" id="message"
+                  style="height: 150px">
+                  </textarea>
+                <label for="message">Message</label>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <button class="btn btn-md-square w-100 py-3 text-light" type="submit">
+                Submit Now
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Start -->
+  <div class="container-fluid footer mt-0 pt-5 wow fadeIn" data-wow-delay="0.1s" style="background: url(images/footer-bg.jpg) ;">
+    <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <h3 class="text-white mb-4"><i class="fa fa-building me-3"></i>M Construction</h3>                         
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <p><strong>Opening Hours :</strong> 
+             <br>Monday – Sat : 9am to 6pm </p>
+            
+            <div class="d-flex pt-2">                                      
+              <a class="btn btn-square ms-0 me-2" href=""><i class="fab fa-facebook-f"></i></a>  
+              <a class="btn btn-square me-2" href=""><i class="fab fa-twitter"></i></a>                                 
+              <a class="btn btn-square me-2" href=""><i class="fab fa-youtube"></i></a>                              
+              <a class="btn btn-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>                             
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <h4 class="text-light mb-4">Address</h4>
+            <p><i class="fas fa-location-dot me-3"></i>23, Anna Nagar</p>                          
+            <p><i class="fas fa-phone me-2"></i>+91 7945681254</p>
+            <p><i class="fas fa-envelope me-3"></i>info@example.com</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <h4 class="text-light mb-4">Quick Links</h4>
+            <ul>
+              <li><a href=""><i class="fa fa-angle-right me-2 mb-3"></i> About Us</a> </li>
+              <li><a href=""><i class="fa fa-angle-right me-2 mb-3"></i> Contact Us</a> </li>
+              <li><a href=""><i class="fa fa-angle-right me-2 mb-3"></i> Our Service</a> </li>
+              <li><a href=""><i class="fa fa-angle-right me-2 mb-3"></i> Terms & Condition</a> </li>
+              <li><a href=""><i class="fa fa-angle-right me-2"></i> Support</a> </li>
+            </ul>  
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <h4 class="text-light mb-4">Newsletter</h4>
+            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+            <div class="position-relative" style="max-width: 290px">
+              <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email" required>                                                          
+              <button type="button" class="btn py-2 position-absolute top-0 end-0 mt-2 me-2">                                            
+                SignUp
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="container-fluid copyright">
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy; <a href="#" class="my_name">M Construction</a> All Right Reserved.
+            </div>
+            <div class="col-md-6 text-center text-md-end text-sm-center">Designed By<a href="#" class="my_name"> Bavi Smart</a>                                       
+            </div>
+          </div>
+        </div>
+    </div>
+  
+  </div>
+
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-md-square back-to-top"><i class="fa-solid fa-chevron-up"></i></a>
+  
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <!-- wow js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <!-- jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <!-- Way point -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- Counterup -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- Slick js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <!-- Javascript -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
